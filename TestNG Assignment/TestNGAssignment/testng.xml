@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Test1"></include>
+        </run>
+    </groups>
+    <test name="test1">
+        <classes>
+            <class name="assignment.TestNGClass1">
+
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+                <classes>
+            <class name="assignment.TestNGClass2">
+                <methods>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                    <include name="method3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
